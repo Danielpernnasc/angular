@@ -1,0 +1,20 @@
+These should be the steps:
+npm install -g angular-cli
+ng new projectname
+cd projectname
+ng serve
+open http://localhost:4200
+
+projeto final
+npm install -g @angular/cli
+
+
+instalar bootstrap via npm
+ npm install bootstrap@3
+colocar no angular-cli
+"../nodes_module/bootstrap/dist/css/bootstrap.min.css"
+
+ou os cdn
+<link rel="sytlesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+<script type="text/javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

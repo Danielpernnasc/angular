@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script type="text/javascript">
+	function hello($scope){
+		$scope.name="Daniel";
+	}
+</script>
+	<title>Olá Mundo</title>
+</head>
+<body>
+<div ng-controler="hello">
+Hello {{ name }}
+<hr/>
+<label>Name</label>
+<input ng-model="typeName" placeholder="Daniel"/></br>
+Hi {{ Daniel }}, <br/>
+<br/>
+<br/>
+<label>Quantity of product</label>
+<input type=number" ng-model="qt" required="required"/>
+<label>Inform Price</label>
+<input type="number" ng-model="price" required="required"/>
+Total {{qt *price | currency}}
+</div>
+</body>
+</html>
